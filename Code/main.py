@@ -143,8 +143,7 @@ if __name__ == "__main__":
     code = assembler.assemble("""
         REG 0x00 100000;
         STORE 0x00 1;
-        STORE 0x00 8;
-        LOAD 1 0x02;
+        LOAD 1 0x01;
         STOP;
         """)
     
